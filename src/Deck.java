@@ -21,6 +21,8 @@ public class Deck  {
 		cards.add(fourClub); 
 		Card fiveClub = new Card("Five", Suit.CLUBS, Rank.FIVE); 
 		cards.add(fiveClub); 
+		Card sixClub = new Card("Six", Suit.CLUBS, Rank.SIX); 
+		cards.add(sixClub); 
 	}
 		
 	private List <Card> cards = new ArrayList<>();
