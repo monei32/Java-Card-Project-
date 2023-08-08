@@ -36,6 +36,8 @@ public class App {
 		deck.describe();
 		System.out.println("This is the Start of the Game!");
 		
+		System.out.println("================================");
+		
 		while (deck.hasMoreCards()) {
 			player1.draw(deck);
 			player2.draw(deck);

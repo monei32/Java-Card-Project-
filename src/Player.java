@@ -3,9 +3,9 @@ import java.util.List;
 
 public class Player {
 
-	// Methods created FLip
-	//draw
-	// set score
+	// Methods created FLip - created
+	//draw - created 
+	// set score - created 
 	
 	
 	private String name;

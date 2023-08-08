@@ -12,6 +12,8 @@
 // How do we assign a value to the card? 
 // how to we want to list out our cards?
 
+// card class
+
 public class Card {
 
 	private String cardName;

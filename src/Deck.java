@@ -36,7 +36,7 @@ public class Deck {
 
 	public void shuffle() {
 		// The while loop is saying get me a new card any place in the deck.
-		// Next add it to a new temorpay stack.
+		// Next add it to a new temp stack.
 		// Once this is completed change cards to be the randomized stack.
 		List<Card> shuffled = new ArrayList<>();
 		Random rn = new Random();

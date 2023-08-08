@@ -5,7 +5,7 @@
 
 // They are there own type of class. This allows them to have their own methods and fields. 
 
-
+// Enum Rank 
 
 
 public enum Rank {
