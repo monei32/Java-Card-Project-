@@ -3,9 +3,10 @@ import java.util.List;
 
 public class Player {
 
-	// Players need to have a hand
-	// Players need to have a score
-	// Players need to have a name
+	// Methods created FLip
+	//draw
+	// set score
+	
 	
 	private String name;
 	private int score; 
@@ -49,6 +50,14 @@ public class Player {
 	 	hand.add(card);
 	}
 	
+	 public int incrementScore() {
+		 score++; 
+		 return score; 
+	 }
+			
 	
-	
+
 }
+	
+	
+
