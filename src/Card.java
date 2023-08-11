@@ -55,7 +55,7 @@ public class Card {
 	public void setRank(Rank rank) {
 		this.rank = rank;
 	}
-    
+                                             // describe method that is taking in the cardName and the suit. You will see this print out when the game runs. 
 	public void describe() {
 		System.out.println("Card is " + cardName + " of " + suit );
 	}
