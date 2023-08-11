@@ -10,13 +10,13 @@ public class Player {
 	
 	private String name;
 	private int score; 
-	private List<Card> hand = new ArrayList<>(); 
+	private List<Card> hand = new ArrayList<>(); //List card is pulling from Card class to create a hand
 	
 	public Player () {
 		score = 0; 
 	}
 	
-	public Card flipCard() {
+	public Card flipCard() {                 // flip card method used in the app to flip the players card. 
 		Card dealt = hand.remove(0);      
 		return dealt; 
 	}
@@ -29,11 +29,11 @@ public class Player {
 		this.name = name;
 	}
 
-	public int getScore() {
+	public int getScore() {      // used to get and set the score of each player
 		return score;
 	}
 
-	public void setScore(int score) {
+	public void setScore(int score) {       
 		this.score = score;
 	}
 
@@ -50,7 +50,7 @@ public class Player {
 	 	hand.add(card);
 	}
 	
-	 public int incrementScore() {
+	 public int incrementScore() {        // method used to increment the players score
 		 score++; 
 		 return score; 
 	 }

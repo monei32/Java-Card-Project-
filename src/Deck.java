@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Random;
 
 public class Deck {
-
+                                                                 // enhanced for loop used to create the deck from the enum classes Rank and Suit 
 	public Deck() {
 		for (Suit suit : Suit.values()) {
 			for (Rank rank : Rank.values()) {
@@ -19,7 +19,7 @@ public class Deck {
 		}
 	}
 
-	private List<Card> cards = new ArrayList<>();
+	private List<Card> cards = new ArrayList<>(); // creates a list of cards 
 
 	public List<Card> getCards() {
 		return cards;
@@ -55,13 +55,13 @@ public class Deck {
 		return dealt;
 	}
 
-	public void describe() {
+	public void describe() {     // method created to describe the card.
 		for (Card card : cards) {
 			card.describe();
 		}
 	}
 
-	public boolean hasMoreCards() {
+	public boolean hasMoreCards() {          // method used to start the while loop to deal out the deck. this will continue to deal the cards unitl it hits 0. 
 		return cards.size() >0; 
 	}
 		
